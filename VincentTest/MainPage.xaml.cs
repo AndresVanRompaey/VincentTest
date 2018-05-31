@@ -32,9 +32,9 @@ namespace VincentTest
 
             string vertraging = data.arrivals.arrival[9].delay;
 
-            if (vertraging.Contains("0") == true)
+            if (vertraging.Contains("0") == true) //text block content
             {
-                txtBlockLiveboardResult.Text = "Op dit moment zijn er geen vertragingen";
+                txtBlockLiveboardResult.Text = "Op dit moment zijn er geen vertragingen"; 
             }
             else
             {
